@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hannahlee97/CLionProjects/ExtraAssignment/Bicycle.cpp
+Bicycle.hpp
+/Users/hannahlee97/CLionProjects/ExtraAssignment/Bicycle.hpp
+
+/Users/hannahlee97/CLionProjects/ExtraAssignment/Bicycle.hpp
+DerivedVehicle.hpp
+/Users/hannahlee97/CLionProjects/ExtraAssignment/DerivedVehicle.hpp
+
+/Users/hannahlee97/CLionProjects/ExtraAssignment/Car.hpp
+iostream
+-
+utility
+-
+DerivedVehicle.hpp
+/Users/hannahlee97/CLionProjects/ExtraAssignment/DerivedVehicle.hpp
+
+/Users/hannahlee97/CLionProjects/ExtraAssignment/DerivedVehicle.hpp
+string
+-
+iostream
+-
+Vehicle.hpp
+/Users/hannahlee97/CLionProjects/ExtraAssignment/Vehicle.hpp
+
+/Users/hannahlee97/CLionProjects/ExtraAssignment/Vehicle.hpp
+
+/Users/hannahlee97/CLionProjects/ExtraAssignment/main.cpp
+iostream
+-
+Bicycle.hpp
+/Users/hannahlee97/CLionProjects/ExtraAssignment/Bicycle.hpp
+Car.hpp
+/Users/hannahlee97/CLionProjects/ExtraAssignment/Car.hpp
+
