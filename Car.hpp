@@ -16,7 +16,6 @@ public:
 
     Car(string vName, int speed);
 
-
     friend ostream &operator<<(ostream &os, const Car& car);
 };
 

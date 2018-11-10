@@ -13,9 +13,7 @@ class Bicycle : public DerivedVehicle {
 public:
     Bicycle() = default;
 
-    // Not sure about line below
     Bicycle(string vName, int cSpeed, int tSpeed);
-    /*::vehicleName{vName}, currentSpeed{cSpeed}, topSpeed{tSpeed}; */
 
     void accelerate(int speed);
 

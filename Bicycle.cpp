@@ -12,7 +12,6 @@ void Bicycle :: accelerate(int speed) {
 }
 
 ostream& operator<<(ostream os, const Bicycle & Bicycle) {
-    /* os << Bicycle.vehicleName << "," << Bicycle.currentSpeed << "," << Bicycle.topSpeed; */
     os << dynamic_cast<const DerivedVehicle &>(Bicycle);
     return os;
 }
